@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.covid{
+    display: flex;
+    background-color: #d4edda;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    color: #155724;
+}
+div.covid .cvd{
+    font-size: 15px;
+    padding: 5px 10px;
+}
+div.covid .cvd2{
+    font-size: 24px;
+    padding: 2px 10px;
+}
+section.first{
+    background-color: #2e2751;
+    height: 54.5px;
+}
+section header{
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    display: flex;
+}
+section header span{
+    display: flex;
+}
+section header span .btn{
+    width: 115px;
+    height: 38px;
+    background-color: white;
+    color: #f3a712;
+}
+section header span .xy{
+    margin: 9px;
+}
+section.second{
+    height: 85px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+section.second header img{
+    padding: 5px;
+    height: auto;
+    max-width: 100%;
+    width: 156px; 
+}
+div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link{
+    color: #2e2751;
+    font-weight: 700;
+}
+section.bg{
+    background-image: url('https://nexinfosoft.com/img/slider-image/slider-image1.jpg');
+    background-size: cover;
+    width: 100vw;
+    background-position: 60% center;
+    height: 550px;
+}
+section.bg .hero-text{
+    padding-top: 80px;
+    padding-left: 10px;
+}
+section.bg .hero-text h4{
+    background-color: #2e2751;
+    color: white;
+    padding: 10px 13px;
+    width: 300px;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+section.bg .hero-text h1{
+    font-size: 50px;
+    color: #2e2751;
+    font-weight: 600;
+}
+section.bg .hero-text hr{
+    width: 50px;
+    color: #f3a712;
+    height: 7px;
+    opacity: 1;
+    border-radius: 5px;
+}
+section.bg .hero-text div.button{
+    width: 160px;
+    height: 50px;
+    background-color: #1a9f68;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section.bg .hero-text div.button a{
+    font-size: 14px;
+    color: white;
+}
+div.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 97vw;
+    max-width: 1165px;
+    margin: auto;
+}
+div.boxes div.box{
+    height: 352px;width: auto;
+    max-width: 262px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+div.boxes div.box hr{
+    background-color: #155724;
+    width: 100%;
+    margin-top: -12px;
+    height: 1px;
+    border: 3px #155724 solid;
+    opacity: 0;
+}
+div.boxes div.box:hover{
+    transform: scale(1.07);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+div.boxes div.box:hover hr{
+    opacity: 1;
+}
+div.boxes div.box:hover img.show{
+    display: block;
+}
+div.boxes div.box:hover img.hide, div.boxes div.box img.show{
+    display: none;
+}
+div.boxes div.box .logo{
+    width: 93px;
+    height: auto;
+}
+div.boxes div.box p.b{
+    font-weight: 500;
+}
+section.twoclr{
+    background-color: #2e2751; overflow: hidden; 
+    height: 100vh; position: relative;
+}
+section div.back{
+    width: 1133px;
+    height: 1363px;
+    background-color: #179e66;
+    transform: rotate(72deg);
+    margin-left: -650px;
+    margin-top: -150px;
+} 
+section div.onbg{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 0;left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section div.onbg img.img{
+    width: 40vw;
+}
+section div.onbg div.cls{
+    width: 45vw;
+    color: #fff;
+}
+section div.onbg div div.grid{
+    display: flex;
+}
+section div.onbg div div.grid div.info{
+    width: 18vw;
+    height: auto;
+}
+section div.onbg div div.grid div.hvr{
+    width: 90px;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+}
+section div.onbg div div.grid div.hvr .codee{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+section div.onbg div div.grid p, p.p{
+    color: #cccccc;
+}
+section div.onbg div div.grid div.info{
+    width: 400px;
+}
+section div.onbg div div.grid div.info div.width{
+    width: 16vw;
+}
+section div.onbg div div.grid div.info:hover img.ab, img.abc{
+    display: none;
+}
+section div.onbg div div.grid div.info:hover img.abc{
+    display: block;
+}
+button.yellow{
+    padding: 15px 32px;
+    background-color: #f3a712;
+    color: white;
+    transition: 0.3s;
+}
+button.yellow:hover{
+    background-color: white;
+    color: #f3a712;
+}
+section div.block{
+    display: flex;
+    align-items: center;
+}
+section div.block div.headd span{
+    background-color: #f3a712;
+    padding: 7px 12px;
+    color: white;
+    border-radius: 25px;
+}
+section div.block div.headd h2{
+    font-weight: 700;
+    color: #2e2751;
+    padding-top: 18px;
+    font-size: 32px;
+}
+section div.block div.headd p{
+    color: #2e2751;
+}
+section div.block p.right{
+    width: 55%;
+    text-align: right;
+}
+section div.three{
+    display: flex;
+}
+section div.three div.column{
+    width: 30%;
+    margin: 11px;
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+div.green{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.green button.paddin{
+    margin-right: 17px;
+}
+section.last{
+    background-image: url('https://nexinfosoft.com/img/testimonial-bg.jpg');
+    background-size: cover;
+    background-position: 50% center;
+    height: 85vh;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+section.last div.diff{
+    position: absolute;
+    top: 60px;
+}
+section.last div.diff h1{
+    color: #2e2751;
+}
+section.last .carousel-inner{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+section.last .carousel-inner .carousel-item{ 
+    background-color: white;
+    color: #2e2751;
+    width: 525px;
+    height: 319px;
+}
+section.last div.carousel, section.last div.diff{
+    margin-left: 150px;
+}
+h5.clr{
+    transition: all ease 0.5s;
+    color: #2e2751;
+}
+h5.clr:hover{
+    color: #f3a712;
+}
+section.last .carousel-indicators{
+    margin-bottom: -70px;
+    height: 110px;
+    justify-content: center;
+    align-items: last baseline;
+    display: flex;
+}
+section.last .carousel-indicators .sider{
+    background-color: #f3a712;
+    height: 13px;
+    width: 13px;
+    border: 1px #f3a712 solid;
+    border-radius: 35px;
+}
+section div.dis-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+section div.dis-grid div.foot img.company{
+    width: 232px;
+    height: 71px;
+}
+section div.dis-grid div.foot p{
+    color: #cccccc;
+    font-size: 14px;
+    width: 235px;
+}
+section div.dis-grid div.foot hr{
+    width: 35px;
+    height: 4px;
+    color: #f3a712;
+    opacity: 0.8;
+}
+section div.dis-grid div.foot ul li{
+   color: #b4b4b4;
+}
+div.input{
+    width: 630px;
+    height: 84px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.input input{
+    width: 510px;
+    border: 1px rgb(206, 200, 200) solid;
+    height: 54px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+div.input button{
+    width: 90px;
+    height: 54px;
+    border: none;
+    background-color: #f3a712;
+    color: white;
+}
+div.input button:hover{
+    background-color: white;
+    color: #f3a712;
+}
+a.scroll{
+    position: fixed;
+    right: 25px;bottom: 25px;
+    transition: all ease-in 0.3s;
+}
+
+@media (max-width: 1184px){
+    section.twoclr{
+        height: 110vh;
+    }
+}
+@media (max-width: 987px){
+    section.second{
+        height: auto;
+    }
+    section.second header img{
+        width: 65vw;
+    }
+    section header span .btn{
+        display: none;
+    }
+    section.first{
+        height: 100px;
+    }
+    section header{
+        display: inline-block;
+    }
+    section header span{
+        justify-content: center;
+    }
+    section header span .xy{
+        margin-top: 0;
+    }
+    .side{
+        display: none;
+    }
+    section.bg .hero-text h1{
+        font-size: 35px;
+    }
+    div.boxes{
+        grid-template-columns: 1fr 1fr;
+    }
+    div.boxes div.box{
+        max-width: 45vw;
+        width: 45vw;
+        margin: auto;
+    }
+    section div.onbg div div.grid div.hvr{
+        display: none;
+    }
+    section div.onbg img.img{
+        width: 400px;
+    }
+    section div.back{
+        display: none;
+    }
+    p.p{
+        display: none;
+    }
+    section div.onbg div div.grid p{
+        font-size: 13px;
+    }
+    section div.onbg div div.grid div.info h3{
+        font-size: 15px;
+    }
+    section.twoclr{
+        height: 80vh;
+    }
+    div.green{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.green button.paddin{
+        margin: 25px auto 0px auto;
+    }
+    section.last .carousel-inner .carousel-item{
+        width: 600px;
+    }
+    section.last div.carousel, section.last div.diff{
+        margin-left: 50px;
+    }
+    section div.dis-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    section div.dis-grid div.foot img.company{
+        width: 90vw;
+        height: auto;
+    }
+    section div.dis-grid div.ttt{
+        padding-left: 50px;
+    }
+    section div.dis-grid div.foot p{
+        width: 400px;
+    }
+}
+@media (max-width: 780px){
+    section header span{
+        display: block; 
+        height: 60px;
+    }
+    section header span div{
+        height: 25px;
+        margin: auto;
+        justify-content: center;
+    }
+    section header span.center{
+        text-align: center;
+    }
+    section.second{
+        height: 169px;
+    }
+    section.bg{
+        background-image: none;
+    }
+}
+@media (max-width: 750px){
+    div.boxes{
+        grid-template-columns: 1fr;
+    }
+    div.boxes div.box{
+        max-width: 95vw;
+        width: 95vw;
+        margin: auto;
+    }
+    section div.onbg div div.grid{
+        flex-direction: column;
+    }
+    section div.onbg{
+        flex-direction: column;
+        justify-content: left;
+    }
+    section.twoclr{
+        height: 145vh;
+    }
+    p.p{
+        display: block;
+        width: 700px;
+    }
+    section div.onbg div div.grid p{
+        font-size: 16px;
+    }
+    section div.onbg div div.grid div.info h3{
+        font-size: 19px;
+    }
+    section div.onbg div div.grid div.info div.width{
+        width: 100%;
+    }
+    section div.onbg div div.grid div.info{
+        width: 95vw;
+        margin: auto;
+    }
+    section div.onbg div div.grid div.hvr{
+        display: block;
+    }
+    section div.onbg div.cls{
+        width: 98vw;
+        margin: auto;
+    }
+    button.yellow{
+        margin: 15px;
+    }
+    section div.onbg img.img{
+        width: 70vw;
+        margin-top: 25px;
+    }
+    section div.block{
+        flex-direction: column;
+        justify-content: start;
+        align-items: left;
+    }
+    section div.block{
+        align-items: normal;
+    }
+    section div.block p.right{
+        width: 95%;
+        text-align: left;
+    }
+    section div.three{
+        flex-direction: column;
+    }
+    section div.three div.column{
+        width: 97%;
+        margin: 10px auto;
+    }
+    section.last .carousel-inner .carousel-item{
+        width: 95vw;
+    }
+    section.last div.carousel, section.last div.diff{
+        margin-left: 2.5vw;
+    }
+    section div.dis-grid{
+        grid-template-columns: 1fr;
+    }
+    section div.dis-grid div.foot p{
+        width: 90vw;
+    }
+    section div.dis-grid div.ttt{
+        padding-left: 0px;
+        padding-top: 25px;
+    }
+    div.input{
+        width: 95vw;
+    }
+    div.input input{
+        width: 82%;
+    }
+    div.input button{
+        width: 12%;
+    }
+}
